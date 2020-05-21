@@ -1,0 +1,121 @@
+<!DOCTYPE html> <!-- 21761003 강민재 -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Eric Kang</title>
+  </head>
+  <style>
+    * {
+      font-family: "Helvetica";
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: black;
+    }
+    a {
+      color:white;
+      text-decoration:none;
+    }
+    #index_footer {
+      font-size: 10px;
+      margin-top:20px;
+      color:gray;
+    }
+    #navi_list{
+      position: relative;
+      overflow: auto;
+    }
+    #navi_list li{
+      float: left;
+      list-style: none;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    #header_title{
+      float: left;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    #navi_list{
+      float: left;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #navi_list2{
+      float: right;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #navi_list2 li{
+      float: right;
+      list-style: none;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    #header{
+      position: relative;
+      overflow: auto;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    #title1{
+      color: white;
+    }
+    #title2{
+      color: #FFF52D;
+    }
+    .box {
+      display: inline-block;
+      width: 600px;
+      height: 600px;
+      margin: 10px;
+      border: solid 5px #FFF52D;
+    }
+    .box img {
+      width: 600px;
+    }
+    .box p {
+      color: gray;
+    }
+    #text {
+      color: white;
+      font-size: 20px;
+    }
+  </style>
+  <body>
+
+    <div id="header">
+      <h1 id="header_title">
+        <span id="title1"><a href="index_21761003.html">Frame</a></span><span id="title2">_</span>
+      </h1>
+      <ul id="navi_list">
+        <li><a href="page1.html">Experience</a></li>
+        <li><a href="page2.html">Ability</a></li>
+        <li><a href="page3.html">Project</a></li>
+      </ul>
+      <ul id="navi_list2">
+        <li><a href="page4.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="box" onclick="location.href='page1.html'">
+      <img src="img/e2.jpg">
+      <p>2017 Singapore Training</p>
+      <p id="text">2017.7 ~ 2017.8</p>
+      <p id="text">College Program on Vacation</p>
+      <p id="text">English Study and Field Practice</p>
+    </div>
+
+  </body>
+
+  <footer>
+    <div id="index_footer">
+      ⓒ 2020 Eric Kang
+    </div>
+  </footer>
+
+</html>
